@@ -18,8 +18,8 @@ function konami(e) {
   console.log(key);
 
   if (key === codes[index]) {
-    index++;
     console.log(index);
+    index++;
 
     if (index === codes.length) {
       alert ("Congratulations!");
