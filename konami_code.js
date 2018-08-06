@@ -18,7 +18,7 @@ function konami(e) {
 
   if (key === codes[index]) {
     index++;
-    
+
     if (index === codes.length) {
       alert ("Congratulations!");
       index = 0;
@@ -36,5 +36,3 @@ function init() {
 }
 
 init();
-
-
