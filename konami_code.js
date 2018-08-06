@@ -18,11 +18,9 @@ function konami(e) {
   console.log(key);
 
   if (key === codes[index]) {
-    console.log(index);
     index++;
 
     if (index === codes.length) {
-      console.log("congratulations");
       alert ("Congratulations!");
       index = 0;
     }
@@ -33,11 +31,9 @@ function konami(e) {
 }
 
 function init() {
-  console.log('start konami listening');
   const body = document.querySelector('body');
 
   body.addEventListener('keydown', konami);
 }
 
-alert("starting konami");
 init();
