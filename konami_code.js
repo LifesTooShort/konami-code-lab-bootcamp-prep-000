@@ -38,4 +38,5 @@ function init() {
   body.addEventListener('keydown', konami);
 }
 
+alert("starting konami");
 init();
