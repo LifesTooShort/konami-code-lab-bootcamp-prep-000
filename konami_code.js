@@ -30,7 +30,7 @@ function konami(e) {
 }
 
 function init() {
-  consol.log('start konami listening');
+  console.log('start konami listening');
   const body = document.querySelector('body');
 
   body.addEventListener('keydown', konami);
