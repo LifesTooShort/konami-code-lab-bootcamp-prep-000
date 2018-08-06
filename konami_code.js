@@ -22,6 +22,7 @@ function konami(e) {
     index++;
 
     if (index === codes.length) {
+      console.log("congratulations");
       alert ("Congratulations!");
       index = 0;
     }
@@ -40,3 +41,4 @@ function init() {
 
 alert("starting konami");
 init();
+
